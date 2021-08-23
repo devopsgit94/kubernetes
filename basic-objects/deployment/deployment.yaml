@@ -5,7 +5,7 @@
            labels:
              app: nginx-exp
          spec:
-           replicas: 3
+           replicas: 5
            selector:
              matchLabels:
                app: nginx-exp
