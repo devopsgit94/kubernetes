@@ -3,16 +3,16 @@
          metadata:
            name: nginx-deployment
            labels:
-             app: nginx-exp
+             app: nginx
          spec:
            replicas: 5
            selector:
              matchLabels:
-               app: nginx-exp
+               app: nginx
            template:
              metadata:
                labels:
-                 app: nginx-exp
+                 app: nginx
              spec:
                containers:
                - name: nginx
